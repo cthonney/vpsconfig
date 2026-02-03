@@ -17,7 +17,7 @@ Port Range	80, 443, 22230, 21820, 51820
 
 --------
 
-
+```
 cat << 'EOF' > setup_firewall.sh
 #!/bin/bash
 
@@ -58,10 +58,12 @@ sudo ufw status verbose
 echo "--------------------------"
 echo "Check terminé. Iptables est clean et UFW est actif."
 EOF
-
+```
 
 ------
 
 # Rendre le script exécutable et le lancere :
+```
 chmod +x setup_firewall.sh
 ./setup_firewall.sh
+```

@@ -1,3 +1,6 @@
+Une seule commande pour creer le script et l'executer 
+
+```
 cat << 'EOF' > setup_swap.sh && chmod +x setup_swap.sh && sudo ./setup_swap.sh
 #!/bin/bash
 # 1. Création du fichier 1GB
@@ -14,3 +17,5 @@ fi
 # Vérification finale
 free -h
 EOF
+
+```
