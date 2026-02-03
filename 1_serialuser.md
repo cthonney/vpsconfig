@@ -1,3 +1,5 @@
+Creer un utilisateur a utiliser avec la console série sur Oracle Cloud en cas de perte d'accees SSH
+
 
 ```
 cat << 'EOF' > setup_user.sh
