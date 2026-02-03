@@ -64,7 +64,7 @@ EOF
 
 ------
 
-# Rendre le script exécutable et le lancere :
+# Rendre le script exécutable et le lancer :
 ```
 chmod +x setup_firewall.sh
 ./setup_firewall.sh
