@@ -1,3 +1,5 @@
+
+```
 cat << 'EOF' > setup_user.sh
 #!/bin/bash
 
@@ -23,14 +25,14 @@ echo "Utilisateur '$USERNAME' créé avec succès."
 echo "Tu peux maintenant l'utiliser sur la console Oracle."
 echo "-----------------------------------------------"
 EOF
-
-
+```
 --------
 
 # Rendre le script exécutable et le lancer
+```
 chmod +x setup_user.sh
 sudo ./setup_user.sh
-
+```
 
 Pour accéder à la console série sur Oracle Cloud Infrastructure (OCI), voici la marche à suivre directement depuis ton tableau de bord :
 
