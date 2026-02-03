@@ -6,7 +6,7 @@ Bas de page : Attached VNICs > Clique sur le Subnet.
 
 Clique sur la Security List (ex: Default Security List...).
 
-2. Ajouter les règles (Ingress Rules)
+Ajouter les règles (Ingress Rules)
 Clique sur Add Ingress Rules et configure comme suit
 
 ```
