@@ -9,11 +9,13 @@ Clique sur la Security List (ex: Default Security List...).
 2. Ajouter les règles (Ingress Rules)
 Clique sur Add Ingress Rules et configure comme suit
 
+```
 Source Type	CIDR
 Source CIDR	0.0.0.0/0
 Protocol	TCP (pour 80, 443, SSH) ou UDP (Pangolin)
 Port Range	80, 443, 22230, 21820, 51820
 
+```
 
 --------
 
