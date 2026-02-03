@@ -30,3 +30,28 @@ EOF
 # Rendre le script exécutable et le lancer
 chmod +x setup_user.sh
 sudo ./setup_user.sh
+
+
+Pour accéder à la console série sur Oracle Cloud Infrastructure (OCI), voici la marche à suivre directement depuis ton tableau de bord :
+
+1. Accès via l'interface OCI
+Connecte-toi à ton interface OCI.
+
+Va dans Compute > Instances.
+
+Clique sur le nom de ton instance Ubuntu.
+
+Dans le menu de gauche (sous Resources), clique sur Console Connections.
+
+Clique sur le bouton Launch Cloud Shell connection.
+
+2. Se connecter avec l'utilisateur créé
+Une fois la fenêtre du Cloud Shell ouverte :
+
+Appuie sur Entrée pour voir l'invite de login.
+
+Entre le nom d'utilisateur : serial_user (ou celui que tu as choisi).
+
+Entre le mot de passe défini lors de l'exécution du script.
+
+Tu es maintenant connecté. Pour passer en root, tape simplement sudo -i (grâce à la règle NOPASSWD du script, aucun mot de passe ne sera demandé).
