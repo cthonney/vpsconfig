@@ -1,1 +1,1 @@
-# vpsconfig
+# vpsconfig for oracle cloud (Ubuntu)
