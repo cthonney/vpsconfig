@@ -6,7 +6,7 @@ sudo nano /etc/ufw/before.rules
 
 Repère la ligne 
 ```#
-End required lines. Colle le bloc juste après.
+End required lines. 
 ```
 
 Colle ce bloc juste après.
