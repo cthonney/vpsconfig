@@ -51,6 +51,7 @@ sudo ufw allow 80/tcp          # HTTP
 sudo ufw allow 443/tcp         # HTTPS
 sudo ufw allow 21820/udp       # Pangolin/VPN
 sudo ufw allow 51820/udp       # Wireguard/Pangolin
+sudo ufw allow 3478/udp        #Netbird
 
 # Activation
 sudo ufw --force enable
