@@ -4,9 +4,11 @@
 sudo nano /etc/ufw/before.rules
 ```
 
-Repère la ligne 
+Repère les ligne 
 ```#
 End required lines. 
+-A ufw-before-input -i lo -j ACCEPT
+-A ufw-before-output -o lo -j ACCEPT
 ```
 
 Colle ce bloc juste après.
